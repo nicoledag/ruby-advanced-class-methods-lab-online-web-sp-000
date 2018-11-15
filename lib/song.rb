@@ -44,7 +44,7 @@ class Song
     @@all.sort_by { |song| song.name }
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(filename)
   binding.pry
     split_filename = filename.chomp(".mp3").split (" - ")
 
