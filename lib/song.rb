@@ -44,7 +44,7 @@ class Song
     @@all.sort_by { |song| song.name }
   end
 
-  def slef.new_from_filename
+  def self.new_from_filename
   end
 
 end
